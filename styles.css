@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.size {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50;
+    margin-left: -200px;
+}
+
+.size button {
+    font-size: 20px;
+    width: 85px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.board {
+    display: block;
+    margin-left: 30px;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 1px solid;
+}
+
+.bottom button {
+    font-size: 20px;
+    width: 85px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    margin-top: 20px;
+}
